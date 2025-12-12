@@ -11,7 +11,13 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: "Physio 360° - Complete Physical Therapy & Rehabilitation",
-  description: "Expert physical therapy and rehabilitation services. Helping you recover, strengthen, and thrive with personalized treatment plans.",
+  description:
+    "Expert physical therapy and rehabilitation services. Helping you recover, strengthen, and thrive with personalized treatment plans.",
+  icons: {
+    icon: "/logo-tab.png",
+    shortcut: "/logo-tab.png",
+    apple: "/logo-tab.png",
+  },
 };
 
 export default function RootLayout({
